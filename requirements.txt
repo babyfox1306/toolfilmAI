@@ -1,0 +1,35 @@
+# Core libraries
+numpy>=1.21.0
+opencv-python>=4.6.0
+torch>=2.0.0
+torchvision>=0.15.0
+tqdm>=4.64.0
+
+# Video processing
+moviepy==1.0.3
+decord>=0.6.0  # Phiên bản mới nhất hỗ trợ CUDA tốt hơn
+ffmpeg-python>=0.2.0  # Thư viện Python wrapper cho FFmpeg
+
+# Machine learning & AI
+scikit-learn>=1.0.0
+ultralytics>=8.0.0  # YOLOv8 support
+openai-whisper>=20230314
+faster-whisper>=0.9.0
+
+# Audio processing
+pydub>=0.25.1
+gtts>=2.3.0
+
+# Text processing
+nltk>=3.8.0
+networkx>=3.0
+language-tool-python>=2.7.0
+pyvi>=0.1.1
+
+# System utilities
+psutil>=5.9.0
+concurrent-log-handler>=0.9.20  # Hỗ trợ logging tốt hơn cho xử lý song song
+
+# Dependencies for CUDA acceleration
+setuptools>=65.5.1  # Needed for proper CUDA builds
+wheel>=0.38.0  # Needed for proper package installation
